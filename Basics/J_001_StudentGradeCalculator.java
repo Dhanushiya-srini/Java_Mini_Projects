@@ -7,7 +7,7 @@ public class J_001_StudentGradeCalculator{
         int [] total = new int [c];
         int [] average = new int [c];
         char [] grade = new char [c];
-        for(int i=0;i<c;i++){
+        for(int i= 0;i<c;i++){
             System.out.println("Enter the Marks for 5 subjects of Students: "+(i+1));
             int t=0;
             for(int j=0;j<5;j++){
