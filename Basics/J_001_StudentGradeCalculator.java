@@ -9,7 +9,7 @@ public class J_001_StudentGradeCalculator{
         char [] grade = new char [c];
         for(int i= 0;i<c;i++){
             System.out.println("Enter the Marks for 5 subjects of Students: "+(i+1));
-            int t=0;
+            int t =0;
             for(int j=0;j<5;j++){
                 int mark = scan.nextInt();
                 if(mark>100 || mark<0)
